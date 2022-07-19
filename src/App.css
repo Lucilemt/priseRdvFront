@@ -1,0 +1,90 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding:0;
+  margin: 0;
+}
+
+#caducee{
+  position: fixed;
+  height: 6rem;
+  width: 6rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  background-image: url(../public/caduceeV1_logo.png);
+}
+#messoins{
+  color: white;
+  font-size: large;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+.messoinslogo{
+  text-decoration: none;
+}
+
+.boutonsconnexion{
+  margin-top: -2rem;
+}
+
+.modal-content {
+  /* background-color: transparent !important; */
+  margin-top: 20%;
+  /* border: 0px !important */
+}
+
+.modal-header {
+  border: 0px !important
+}
+.modal-title{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1024px){
+  .logo{
+      display: flex;
+  }
+  #caducee{
+      display: none;
+  }
+  #messoins{
+      color: black;
+      text-align: center;
+      justify-content: center;
+      font-size: larger;
+      margin-left: 8rem;
+
+  }
+  .boutonsconnexion{
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      
+  }
+}
+
+/* .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+} */
+
+
+
